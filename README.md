@@ -66,6 +66,10 @@ ansible-playbook -i ./hosts ec2_test.yml
 Most of the steps above were adapted from here:
 https://www.agix.com.au/build-an-ec2-using-ansible-step-by-step/
 
+## 7 Testing:
+When it's all set and done on the 7th day you may test success of creation:
+<pre>ansible all -i hosts -u ec2-user -m ping</pre>
+
 
 
 
